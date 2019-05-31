@@ -1,0 +1,17 @@
+// Note: This uses the light values in the provided source code.
+constants shiny_purple 0.3 0.2 0.8 0.3 0 0 0.3 0.2 0.8
+constants shiny_teal 0.3 0.0 0.0 0.3 0.2 0.8 0.3 0.2 0.8
+constants dull_yellow 0.3 0.8 0.2 0.3 0.8 0.2 0 0 0
+push
+move 250 100 0
+rotate x 30
+torus shiny_teal 0 0 0 50 120
+torus shiny_teal 0 50 0 50 110
+torus shiny_teal 0 100 0 50 100
+torus shiny_teal 0 150 0 50 90
+torus shiny_teal 0 200 0 50 80
+torus shiny_teal 0 250 0 50 70
+torus shiny_teal 0 300 0 50 60
+pop
+display
+save galMDL.png
